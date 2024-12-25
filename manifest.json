@@ -1,0 +1,58 @@
+{
+  "name": "Halo Reach",
+  "description": "Spartans Never Die",
+  "developer": {
+    "name": "Mr-Milky-way"
+  },
+  "icons": {
+    "512": "icon_512x512.png"
+  },
+  "manifest_version": 3,
+  "mod": {
+    "payload": {
+      "background_music": [
+        "music/Reach_All_IN_One.ogg"
+      ],
+      "theme": {
+        "dark": {
+          "gx_accent": {
+            "h": 0,
+            "s": 100,
+            "l": 21
+          },
+          "gx_secondary_base": {
+            "h": 262,
+            "s": 20,
+            "l": 1
+          }
+        },
+        "light": {
+          "gx_accent": {
+            "h": 0,
+            "s": 100,
+            "l": 60
+          },
+          "gx_secondary_base": {
+            "h": 0,
+            "s": 0,
+            "l": 100
+          }
+        }
+      },
+      "wallpaper": {
+        "dark": {
+          "image": "wallpaper/reach_dark.png",
+          "text_color": "#FFFFFF",
+          "text_shadow": "#757575"
+        },
+        "light": {
+          "image": "wallpaper/reach_light.png",
+          "text_color": "#FFFFFF",
+          "text_shadow": "#0B000E"
+        }
+      }
+    },
+    "schema_version": 1
+  },
+  "version": "1.0"
+}
